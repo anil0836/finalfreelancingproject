@@ -1,0 +1,72 @@
+.input_wrapper {
+  padding: 10px 0px;
+  margin: 15px;
+  flex-grow: 1;
+  width: 100%;
+  height: 38px;
+  /* border-radius: 12px; */
+  border: 0;
+  box-shadow: 0 1pt 5px rgb(175, 175, 175);
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  background-color: rgb(244, 244, 244);
+}
+
+.input_title {
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  margin: 0px 0 10px 0;
+  font-size: 14pt;
+  font-weight: 600;
+  user-select: none;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+  padding: 5px;
+}
+
+
+.dropdown-input {
+  border: 1px solid #64EBB6;
+  font-size: 15px;
+  padding: 12px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  /* color: #42A5F5; */
+  font-family: Nunito;
+}
+
+.otp-field{
+  width: 12%;
+  margin: 20px 5px;
+  margin-top: 20px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #42A5F5;
+  border-radius: 12px;
+}
+
+/* .input-container input {
+  border: none;
+  box-sizing: border-box;
+  outline: 0;
+  padding: .75rem;
+  position: relative;
+  width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+} */
